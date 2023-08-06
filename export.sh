@@ -5,8 +5,8 @@ RENT_API_URL="https://api.propstack.de/v1/units?api_key=pKU4VNrmuixvfuokIMzIV3cm
 BUY_API_URL="https://api.propstack.de/v1/units?api_key=pKU4VNrmuixvfuokIMzIV3cmjGp-5U0hz8uo5xdZ&status=21444&marketing_type=BUY"
 
 # Set the paths to the files where you'll save the last fetched data
-SAVED_RENT_DATA_FILE="~/dydo/pipeline/saved_rent_data.json"
-SAVED_BUY_DATA_FILE="~/dydo/pipeline/saved_buy_data.json"
+SAVED_RENT_DATA_FILE="/root/dydo/pipeline/saved_rent_data.json"
+SAVED_BUY_DATA_FILE="/root/dydo/pipeline/saved_buy_data.json"
 
 # Function to fetch data from an API and save it to a file
 fetch_and_save_data() {
